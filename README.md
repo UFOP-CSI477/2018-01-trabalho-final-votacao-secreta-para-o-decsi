@@ -15,7 +15,7 @@ O objetivo deste documento é apresentar uma proposta para o trabalho a ser dese
 <!-- Descrever e limitar o escopo da aplicação. -->
 ### 2. Escopo
 
-As funcionalidades do dessa aplicação serão:
+As funcionalidades dessa aplicação serão:
 * Login para usuários e administradores do sistema;
 * Cadastro, busca, remoção e alteração de um tema para votação;
 * Para cada tema podem existir diferentes tipos de opção de voto;
