@@ -24,12 +24,12 @@ As funcionalidades do dessa aplicação serão:
 <!-- Apresentar restrições de funcionalidades e de escopo. -->
 ### 3. Restrições
 
-* A plataforma terá objetivos de votação e não de reuniões.
-* Não será possível se comunicar com outros membros a partir da plataforma.
-* Não será apresentada o número de votos.
-* Para cada tema pode existir diferentes tipos de opção de voto.
-* A opção de voto não será registrada, apenas contabilizada, sem vínculo com o votante.
-* Para cada tema não será apresentado qual o voto, será apresentado apenas se o usuário votou ou não votou
+* A plataforma terá objetivos de votação e não de reuniões;
+* Não será possível se comunicar com outros membros a partir da plataforma;
+* Não será apresentada o número de votos;
+* Para cada tema pode existir diferentes tipos de opção de voto;
+* A opção de voto não será registrada, apenas contabilizada, sem vínculo com o votante;
+* Para cada tema não será apresentado qual a opção de voto, apenas se o usuário votou ou não votou;
 * Não será permitida a re-opção de voto.
 
 
