@@ -52,9 +52,10 @@ As funcionalidades do dessa aplicação serão:
     ![Exclusão](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Prototipos/Prototipos%20de%20Tela/removetheme.png)
     
    * Alterar de Tema
-    ![Seleção](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Prototipos/Prototipos%20de%20Tela/alterartheme.png)
-    * teste
+    ![Seleção](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Prototipos/Prototipos%20de%20Tela/alterartheme.png)   
     ![Alterar](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Prototipos/Prototipos%20de%20Tela/alterartheme2.png)
+    
+    
   
 
 ### 5. Referências
