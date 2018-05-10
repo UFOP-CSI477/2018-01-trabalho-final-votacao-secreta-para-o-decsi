@@ -27,7 +27,6 @@ As funcionalidades do dessa aplicação serão:
 
 * A plataforma terá objetivos de votação e não de reuniões;
 * Não será possível se comunicar com outros membros a partir da plataforma;
-* Não será apresentado o número de votos;
 * A opção de voto não será registrada, apenas contabilizada, sem vínculo com o votante;
 * Para cada tema não será apresentado qual a opção de voto escolhida pelo usuário, apenas se este votou ou não votou;
 * Não será permitida a re-opção de voto.
