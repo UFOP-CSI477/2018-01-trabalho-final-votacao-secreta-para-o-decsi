@@ -17,7 +17,8 @@ O objetivo deste documento é apresentar uma proposta para o trabalho a ser dese
 
 As funcionalidades do dessa aplicação serão:
 * Login para usuários e administradores do sistema;
-* Cadastro, busca, remoção, alteração de um tema para votação;
+* Cadastro, busca, remoção e alteração de um tema para votação;
+* Para cada tema podem existir diferentes tipos de opção de voto;
 * Votação em temas cadastrados;
 * Apresentação de resultados ao fim de uma votação.
 
@@ -26,10 +27,9 @@ As funcionalidades do dessa aplicação serão:
 
 * A plataforma terá objetivos de votação e não de reuniões;
 * Não será possível se comunicar com outros membros a partir da plataforma;
-* Não será apresentada o número de votos;
-* Para cada tema pode existir diferentes tipos de opção de voto;
+* Não será apresentado o número de votos;
 * A opção de voto não será registrada, apenas contabilizada, sem vínculo com o votante;
-* Para cada tema não será apresentado qual a opção de voto, apenas se o usuário votou ou não votou;
+* Para cada tema não será apresentado qual a opção de voto escolhida pelo usuário, apenas se este votou ou não votou;
 * Não será permitida a re-opção de voto.
 
 
@@ -63,4 +63,4 @@ As funcionalidades do dessa aplicação serão:
   
 
 ### 5. Referências
-Referências podem ser incluídas, caso necessário. Utilizar o padrão ABNT.
+Sem referências ate o momento.
