@@ -37,7 +37,7 @@ As funcionalidades do dessa aplicação serão:
 ### 4. Protótipo
   Protótipos para as páginas (descrever quais páginas) foram elaborados, e podem ser encontrados em...
   * Login
-  ![Login](https://github.com/UFOP-CSI477/22018-01-trabalho-final-votacao-secreta-para-o-decsi/Prototipos/Prototipos de Tela/main.png)
+  ![Login](https://github.com/UFOP-CSI477/22018-01-trabalho-final-votacao-secreta-para-o-decsi/Prototipos/Prototipos%de%Tela/main.png)
 
 ### 5. Referências
 Referências podem ser incluídas, caso necessário. Utilizar o padrão ABNT.
