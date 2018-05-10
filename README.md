@@ -1,30 +1,37 @@
-# 2018-01-trabalho-final-votacao-secreta-para-o-decsi
-2018-01-trabalho-final-votacao-secreta-para-o-decsi created by GitHub Classroom
-
 # **CSI477-2018-01 - Proposta de Trabalho Final**
-## *Grupo: Princesa Leia & Luke Skywalker*
+## *Grupo: Caio César de Almeida Freitas & Matheus Teixeira Lemos*
 
 --------------
 
 <!-- Descrever um resumo sobre o trabalho. -->
 
 ### Resumo
-O objetivo deste documento é apresentar uma proposta para o trabalho a ser desenvolvido na disciplina CSI477 -- Sistemas WEB I. É uma breve descrição sobre o tema que será abordado, bem como o escopo, as restrições e demais questões pertinentes ao contexto. (modifique este texto conforme o contexto do seu trabalho :D)
-
+O objetivo deste documento é apresentar uma proposta para o trabalho a ser desenvolvido na disciplina Sistemas WEB I. O documento contém os tópicos: tema, escopo, restrições, protótipo e referências. Cada tópico apresenta uma especificidade do trabalho a ser desenvolvido.
 <!-- Apresentar o tema. -->
 ### 1. Tema
 
-  O trabalho final tem como tema o desenvolvimento de ...
+  O trabalho final tem como tema o desenvolvimento de uma aplicação para a votação secreta para o DECSI. Com objetivo de proporcionar que um participante da assembleia vote de qualquer lugar, secretamente. Além de proporcionar para um participante da assembleia a apresentação do resultado de uma votação e demais especificidades apresentadas abaixo. 
 
 <!-- Descrever e limitar o escopo da aplicação. -->
 ### 2. Escopo
 
-  Este projeto terá as seguintes funcionalidades...
+As funcionalidades do dessa aplicação serão:
+* Login para usuários e administradores do sistema;
+* Cadastro, busca, remoção, alteração de um tema para votação;
+*Votação em temas cadastrados;
+*Apresentação de resultados ao fim de uma votação.
 
 <!-- Apresentar restrições de funcionalidades e de escopo. -->
 ### 3. Restrições
 
-  Neste trabalho não serão considerados ...
+*A plataforma terá objetivos de votação e não de reuniões.
+*Não será possível se comunicar com outros membros a partir da plataforma.
+*Não será apresentada o número de votos.
+*Para cada tema pode existir diferentes tipos de opção de voto.
+*A opção de voto não será registrada, apenas contabilizada, sem vínculo com o votante.
+*Para cada tema não será apresentado qual o voto, será apresentado apenas se o usuário votou ou não votou
+*Não será permitida a re-opção de voto.
+
 
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
 ### 4. Protótipo
