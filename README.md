@@ -63,4 +63,4 @@ As funcionalidades do dessa aplicação serão:
   
 
 ### 5. Referências
-Sem referências ate o momento.
+Prototipos de telas foram criados com a ferramenta [Pencil](https://pencil.evolus.vn/).
