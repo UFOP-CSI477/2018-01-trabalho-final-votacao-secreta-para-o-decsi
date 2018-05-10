@@ -35,7 +35,6 @@ As funcionalidades do dessa aplicação serão:
 
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
 ### 4. Protótipo
-  Protótipos para as páginas (descrever quais páginas) foram elaborados, e podem ser encontrados em...
   * Menu
   ![Menu](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Prototipos/Prototipos%20de%20Tela/menu.png)
   
