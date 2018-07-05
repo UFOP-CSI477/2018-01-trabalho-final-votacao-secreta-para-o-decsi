@@ -66,8 +66,44 @@ As funcionalidades dessa aplicação serão:
       * Professores e Alunos
     
     
-    
+ ### 6. Desenvolvimento
+ 
+  O back-end do projeto foi desenvolvido em laravel e o front-end trás junções dos templates adminLTE e bootstrap. Como foi utilizado  laravel no projeto, todas as tabelas foram criadas utilizando os migrates e povoadas utilizando seeds. O projeto trás com sigo 3 tipos gerais de usuarios, sendo eles: 
   
+  * Secretario/Administrador;
+  * Alunos/Professores;
+  * Usuarios não registrados.
+ 
+Para os usuarios vinculados com faculdade, logo, registrados, foi utilizado o template adminLTE, como pode ser visto nas telas acima. Todas as apresentações de temas/topicos são feitas em tabelas para facilitar o gerenciamento.
+Enquanto para os usuarios não vinculados com a faculdade(guests), foi utilizado um template bootstrap, como pode ser visto nas telas acima. As apresentações de temas/topicos são feitas em "posts/cards" de forma descritiva.
+Vale ressaltar, que as demais áreas são totalmente reponsivas e áreas não acessiveis foram separadas em grupos de middleware de forma que apenas usuarios permitidos acessem suas areas.
 
-### 5. Referências
+ #### 6.1 Funcionalidades
+ ##### Secretario/Administrador
+ Os administradores possuem as seguintes funcionalidades:
+   * Adicionar, alterar, remover, visualizar e buscar temas.
+   * Adicionar, remover e visualizar opções para temas.
+   * Adicionar, remover e visualizar usuarios para votar em temas.
+   * Abrir e fechar votações.
+   * Visualizar numero de votos em cada opções.
+   * Visualizar usuarios que votaram em um tema.
+   
+ ##### Alunos/Professores
+   * Visualizar e buscar temas.
+   * Votar em uma votação de um tema.
+   
+##### Usuarios não registrados
+   * Visualizar e buscar temas.
+
+### 7. Algoritmo para construção do projeto
++ Item 1
++ Item 2
++ Item 3
+  
+- Item 1
+- Item 2
+- Item 3
+
+
+### 8. Referências
 Prototipos de telas foram criados com a ferramenta [Pencil](https://pencil.evolus.vn/).
