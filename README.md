@@ -89,10 +89,12 @@ Vale ressaltar, que as demais áreas são totalmente reponsivas e áreas não ac
    * Visualizar usuarios que votaram em um tema.
    
  ##### Alunos/Professores
+  Os alunos/professores possuem as seguintes funcionalidades:
    * Visualizar e buscar temas.
    * Votar em uma votação de um tema.
    
 ##### Usuarios não registrados
+  Os guests possuem as seguintes funcionalidades:
    * Visualizar e buscar temas.
 
 ### 7. Algoritmo para construção do projeto
