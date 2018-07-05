@@ -34,16 +34,16 @@ As funcionalidades dessa aplicação serão:
 
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
 ### 4. Protótipo
-#### 4.1 Área Geral
+### 4.1 Área Geral
     * Pagina Inicial
     
     * Tópicos
     
     * Descrição do Tópico
-    * Menu
-#### 4.2 Área Gerencial Registrados
+    
+### 4.2 Área Gerencial Registrados
       * Home
-#### 4.2 Área Gerencial Administrador/Secretario
+### 4.2 Área Gerencial Administrador/Secretario
   * Menu
   ![Menu](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Prototipos/Prototipos%20de%20Tela/menu.png)
   
