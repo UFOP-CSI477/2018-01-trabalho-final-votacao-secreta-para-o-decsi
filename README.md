@@ -61,6 +61,9 @@ As funcionalidades dessa aplicação serão:
    #### 5.1 Área Comum
   ![Pagina Principal](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_08_01-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
     
+  ![Topicos](2018-01-trabalho-final-votacao-secreta-para-o-decsi/Telas/2018-07-05 18_08_14-DECSI - Votação Secreta.png)
+  
+  ![Login]()
    #### 5.2 Área Administrativa
    ##### 5.2.1 Administrador 
       
