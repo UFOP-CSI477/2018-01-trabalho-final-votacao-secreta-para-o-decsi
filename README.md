@@ -56,7 +56,15 @@ As funcionalidades dessa aplicação serão:
     ![Seleção](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Prototipos/Prototipos%20de%20Tela/alterartheme.png)   
     ![Alterar](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Prototipos/Prototipos%20de%20Tela/alterartheme2.png)
     
-   
+ ### 5. Telas desenvolvidas
+ 
+    * Área Comum
+    
+    * Área Administrativa
+      * Administrador 
+      
+      * Professores e Alunos
+    
     
     
   
