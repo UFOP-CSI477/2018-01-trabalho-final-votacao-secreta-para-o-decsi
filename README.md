@@ -59,35 +59,55 @@ As funcionalidades dessa aplicação serão:
  ### 5. Telas desenvolvidas
  
    #### 5.1 Área Comum
+   * Página Principal
   ![Pagina Principal](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_08_01-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
-    
+    * Tópicos
   ![Topicos](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_08_14-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
- 
+  * Tópicos - Descrição
  ![Topicos-Descrição](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_08_28-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
-  
+  * Login
   ![Login](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_08_18-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
   
    #### 5.2 Área Administrativa
    ##### 5.2.1 Administrador 
+   * Home
    ![home](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_10_30-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
+   * Busca
    ![busca](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_10_34-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
+   * Todos os temas
    ![todos os temas](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_10_41-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
+   * Cadastrar tema
    ![cadastrar tema](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_10_45-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
+   * Detalhes - Primeira parte
    ![show1](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_11_10-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
+   * Detalhes - Segunda parte
    ![show2](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_11_13-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
+   * Detalhes - Terceira parte
    ![show3](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_11_17-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
+   * Cadastrar opções
    ![cadastrar opções](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_11_27-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
+   * Selecionar eleitores
    ![selecionar votantes](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_11_31-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
+   * Alterar
+  ![Alterar](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_14_40-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
+  * Relatorio pós finalização de votação
    ![fechamento de voto](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_12_16-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
-   ![Alterar](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_14_40-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
+
    
    ##### 5.2.2 Professores e Alunos
-   ![home](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_08_49-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png
+   * Home
+   ![home](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_08_49-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
+   * Busca
    ![Busca](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_08_54-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
+   * Todos os temas
    ![Todos os Temas](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_09_19-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
+   * Votações que participei
    ![Votações que Participei](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_09_50-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
+   * Votações para votar
    ![Votações para votar](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_09_55-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
+   * Votar
    ![Votar](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_10_06-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
+   * Detalhes
    ![Show1](https://raw.githubusercontent.com/UFOP-CSI477/2018-01-trabalho-final-votacao-secreta-para-o-decsi/master/Telas/2018-07-05%2018_10_14-DECSI%20-%20Vota%C3%A7%C3%A3o%20Secreta.png)
    
    
