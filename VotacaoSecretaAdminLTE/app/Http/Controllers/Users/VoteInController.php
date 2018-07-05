@@ -40,7 +40,7 @@ class VoteInController extends Controller {
 
             return redirect()->route('user.temas.show', request()->route('id'));
         } catch (QueryException $e) {
-            session()->flash('erro', 'Falha! Não foi possivel votar');
+           
             return redirect()->route('user.temas.show', request()->route('id'));
         }
     }
