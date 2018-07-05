@@ -58,12 +58,12 @@ As funcionalidades dessa aplicação serão:
     
  ### 5. Telas desenvolvidas
  
-    * Área Comum
+  * Área Comum
     
     * Área Administrativa
-      * Administrador 
+      ** Administrador 
       
-      * Professores e Alunos
+      ** Professores e Alunos
     
     
     
