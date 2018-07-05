@@ -60,10 +60,10 @@ As funcionalidades dessa aplicação serão:
  
   * Área Comum
     
-    * Área Administrativa
-      ** Administrador 
+  * Área Administrativa
+      * Administrador 
       
-      ** Professores e Alunos
+      * Professores e Alunos
     
     
     
