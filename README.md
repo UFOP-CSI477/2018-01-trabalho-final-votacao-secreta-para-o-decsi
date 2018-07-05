@@ -96,14 +96,11 @@ Vale ressaltar, que as demais áreas são totalmente reponsivas e áreas não ac
    * Visualizar e buscar temas.
 
 ### 7. Algoritmo para construção do projeto
-+ Item 1
-+ Item 2
-+ Item 3
-  
-- Item 1
-- Item 2
-- Item 3
+1. Crie um projeto no banco de dados com o nome "votacaosecreta" com usuario(root) e sem senha com todos privilegios desse projeto.
+2. Execute o comando "php artisan migrate", para criar as tabelas do projeto.
+3. Execute o comando "php artisan db:seed", para povoar essas tabelas.
+4. Execute o comando "php artisan serve", para iniciar o projeto e pronto.
 
-
+Obs: todos usuarios cadastrados tem senha '123456' com o CPF 000.000.000-0X, onde X é um numero de 0 a 5.
 ### 8. Referências
 Prototipos de telas foram criados com a ferramenta [Pencil](https://pencil.evolus.vn/).
