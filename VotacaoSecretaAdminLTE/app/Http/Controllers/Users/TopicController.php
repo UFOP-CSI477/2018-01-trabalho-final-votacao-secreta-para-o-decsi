@@ -1,53 +1,51 @@
 <?php
 
 namespace App\Http\Controllers\Users;
+
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Topic;
-class TopicController extends Controller
-{
+
+class TopicController extends Controller {
+
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {//Todos os topicos para cadastrados
-       $topics = Topic::orderBy('created_at', 'DESC')->paginate(10);
-        return view('users.indexTopic')->with('topics',$topics);
-    }
-   
-    public function  votei()
-    {
+    public function index() {//Todos os topicos para cadastrados
         $topics = Topic::orderBy('created_at', 'DESC')->paginate(10);
-        return view('users.votados')->with('topics',$topics);
+        return view('users.indexTopic')->with('topics', $topics);
     }
 
-    public function canVote()
-    {
+    public function votei() {
         $topics = Topic::orderBy('created_at', 'DESC')->paginate(10);
-        return view('users.canVote')->with('topics',$topics);
+        return view('users.votados')->with('topics', $topics);
     }
 
-    public function search(Request $request)
-    {
-        $topics = Topic::where('title', 'like','%' . $request->input('search') . '%')
-        ->orWhere('description', 'like', '%' . $request->input('search') . '%')->get();
-      
-        return view('users.indexTopic')->with('topics',$topics);
+    public function canVote() {
+        $topics = Topic::orderBy('created_at', 'DESC')->paginate(10);
+        return view('users.canVote')->with('topics', $topics);
     }
 
-     public function searchForm(){
+    public function search(Request $request) {
+        $topics = Topic::where('title', 'like', '%' . $request->input('search') . '%')
+                        ->orWhere('description', 'like', '%' . $request->input('search') . '%')->get();
+
+        return view('users.indexTopic')->with('topics', $topics);
+    }
+
+    public function searchForm() {
         return view('users.search');
-     }
+    }
+
     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
+    public function create() {
         //
     }
 
@@ -57,8 +55,7 @@ class TopicController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
+    public function store(Request $request) {
         //
     }
 
@@ -68,15 +65,13 @@ class TopicController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
-    {
+    public function show($id) {
         $topic = Topic::find($id);
-        return view('users.showTopic')->with('topic',$topic);  
+        return view('users.showTopic')->with('topic', $topic);
     }
 
-    public function votar($id)
-    {
-       
+    public function votar($id) {
+        
     }
 
     /**
@@ -85,8 +80,7 @@ class TopicController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
-    {
+    public function edit($id) {
         //
     }
 
@@ -97,8 +91,7 @@ class TopicController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
-    {
+    public function update(Request $request, $id) {
         //
     }
 
@@ -108,8 +101,8 @@ class TopicController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
-    {
+    public function destroy($id) {
         //
     }
+
 }

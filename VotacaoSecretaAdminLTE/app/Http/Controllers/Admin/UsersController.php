@@ -6,25 +6,23 @@ use App\UserController;
 use Illuminate\Http\Request;
 use App\User;
 use App\Http\Controllers\Controller;
-class UsersController extends Controller
-{
+
+class UsersController extends Controller {
+
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-       $decsi = User::where('type',1)->get();
-       $decea = User::where('type',2)->get();
-       $deenp = User::where('type',3)->get();
-       $deelt = User::where('type',4)->get();
-       $alunos = User::where('type',5)->get();
+    public function index() {
+        $decsi = User::where('type', 1)->get();
+        $decea = User::where('type', 2)->get();
+        $deenp = User::where('type', 3)->get();
+        $deelt = User::where('type', 4)->get();
+        $alunos = User::where('type', 5)->get();
 
-       return view('admin.select_users')->with('decsi' ,$decsi)->with('decea' ,$decea)
-       ->with('deenp' ,$deenp)->with('deelt' ,$deelt)->with('alunos' ,$alunos);
-
-
+        return view('admin.select_users')->with('decsi', $decsi)->with('decea', $decea)
+                        ->with('deenp', $deenp)->with('deelt', $deelt)->with('alunos', $alunos);
     }
 
     /**
@@ -32,8 +30,7 @@ class UsersController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
+    public function create() {
         //
     }
 
@@ -43,8 +40,7 @@ class UsersController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
+    public function store(Request $request) {
         //
     }
 
@@ -54,8 +50,7 @@ class UsersController extends Controller
      * @param  \App\UserController  $userController
      * @return \Illuminate\Http\Response
      */
-    public function show(UserController $userController)
-    {
+    public function show(UserController $userController) {
         //
     }
 
@@ -65,8 +60,7 @@ class UsersController extends Controller
      * @param  \App\UserController  $userController
      * @return \Illuminate\Http\Response
      */
-    public function edit(UserController $userController)
-    {
+    public function edit(UserController $userController) {
         //
     }
 
@@ -77,8 +71,7 @@ class UsersController extends Controller
      * @param  \App\UserController  $userController
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, UserController $userController)
-    {
+    public function update(Request $request, UserController $userController) {
         //
     }
 
@@ -88,8 +81,8 @@ class UsersController extends Controller
      * @param  \App\UserController  $userController
      * @return \Illuminate\Http\Response
      */
-    public function destroy(UserController $userController)
-    {
+    public function destroy(UserController $userController) {
         //
     }
+
 }

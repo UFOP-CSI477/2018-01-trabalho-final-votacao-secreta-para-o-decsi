@@ -6,48 +6,47 @@ use App\Topic;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class TopicController extends Controller
-{
+class TopicController extends Controller {
+
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-     $temas = Topic::where('visible', 1)->get();
-      return view('site.temas')->with('temas',$temas);
+    public function index() {
+        $temas = Topic::where('visible', 1)->get();
+        return view('site.temas')->with('temas', $temas);
     }
-    public function finalizados(){
-        
-        $temas = Topic::where('visible', 1)->where('result','!=', 'Sem resultado')->get();
-      return view('site.temas')->with('temas',$temas);
+
+    public function finalizados() {
+
+        $temas = Topic::where('visible', 1)->where('result', '!=', 'Sem resultado')->get();
+        return view('site.temas')->with('temas', $temas);
     }
-    public function pendentes(){
+
+    public function pendentes() {
         $temas = Topic::where('visible', 1)->where('result', 'Sem resultado')->get();
-      return view('site.temas')->with('temas',$temas);
+        return view('site.temas')->with('temas', $temas);
     }
 
+    public function search(Request $request) {
+        $topics = Topic::where('title', 'like', '%' . $request->input('search') . '%')
+                        ->orWhere('description', 'like', '%' . $request->input('search') . '%')->get();
 
-     public function search(Request $request)
-    {
-        $topics = Topic::where('title', 'like','%' . $request->input('search') . '%')
-        ->orWhere('description', 'like', '%' . $request->input('search') . '%')->get();
-      
-        return view('admin.indexTopic')->with('topics',$topics);
+        return view('admin.indexTopic')->with('topics', $topics);
     }
 
-     public function searchForm(){
+    public function searchForm() {
         return view('admin.search');
-     }
+    }
+
     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-       
+    public function create() {
+        
     }
 
     /**
@@ -56,8 +55,7 @@ class TopicController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
+    public function store(Request $request) {
         
     }
 
@@ -67,10 +65,9 @@ class TopicController extends Controller
      * @param  \App\Topic  $topic
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
-    {
+    public function show($id) {
         $tema = Topic::find($id);
-        return view('site/temasShow')->with('topic',$tema);
+        return view('site/temasShow')->with('topic', $tema);
     }
 
     /**
@@ -79,9 +76,8 @@ class TopicController extends Controller
      * @param  \App\Topic  $topic
      * @return \Illuminate\Http\Response
      */
-   
-    public function edit($id)
-    {
+    public function edit($id) {
+        
     }
 
     /**
@@ -91,9 +87,8 @@ class TopicController extends Controller
      * @param  \App\Topic  $topic
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
-    {
-   
+    public function update(Request $request, $id) {
+        
     }
 
     /**
@@ -102,8 +97,8 @@ class TopicController extends Controller
      * @param  \App\Topic  $topic
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
-    {
-   
+    public function destroy($id) {
+        
     }
+
 }

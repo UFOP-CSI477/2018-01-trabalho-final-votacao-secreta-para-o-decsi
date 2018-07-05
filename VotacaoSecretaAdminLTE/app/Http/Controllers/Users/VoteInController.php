@@ -9,46 +9,43 @@ use App\VoteIn;
 use App\Topic;
 use App\Vote;
 use Illuminate\Database\QueryException;
-class VoteInController extends Controller
-{
+
+class VoteInController extends Controller {
+
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    
-    public function votarCreate(){
+    public function votarCreate() {
         $id_topic = request()->route('id');
-       $topic = Topic::find($id_topic);
+        $topic = Topic::find($id_topic);
         return view('users.votarTopic')->with('topic', $topic);
     }
 
-     public function votarStore(Request $request)
-    {
-        try{
-           
-       
-         VoteIn::create([
-            'topic_id' =>  request()->route('id'),
-            'user_id' =>  Auth::user()->id,
-            'created_at' =>  date('Y-m-d H:i:s'),
-            'updated_at' =>  date('Y-m-d H:i:s'),
-       ]);
-     
-    $vote_increase = Vote::find($request->request->get('option'));
-    $vote_increase->amount = $vote_increase->amount + 1;
-    $vote_increase->save();
-    
-    return redirect()->route('user.temas.show', request()->route('id'));
+    public function votarStore(Request $request) {
+        try {
 
 
-    }catch(QueryException $e){
-        session()->flash('erro', 'Falha! Não foi possivel votar');
-        return redirect()->route('user.temas.show', request()->route('id'));
+            VoteIn::create([
+                'topic_id' => request()->route('id'),
+                'user_id' => Auth::user()->id,
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
+            ]);
+
+            $vote_increase = Vote::find($request->request->get('option'));
+            $vote_increase->amount = $vote_increase->amount + 1;
+            $vote_increase->save();
+
+            return redirect()->route('user.temas.show', request()->route('id'));
+        } catch (QueryException $e) {
+            session()->flash('erro', 'Falha! Não foi possivel votar');
+            return redirect()->route('user.temas.show', request()->route('id'));
+        }
     }
-    }
-    public function index()
-    {
+
+    public function index() {
         //
     }
 
@@ -57,8 +54,7 @@ class VoteInController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
+    public function create() {
         //
     }
 
@@ -68,8 +64,7 @@ class VoteInController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
+    public function store(Request $request) {
         //
     }
 
@@ -79,8 +74,7 @@ class VoteInController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
-    {
+    public function show($id) {
         //
     }
 
@@ -90,8 +84,7 @@ class VoteInController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
-    {
+    public function edit($id) {
         //
     }
 
@@ -102,8 +95,7 @@ class VoteInController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
-    {
+    public function update(Request $request, $id) {
         //
     }
 
@@ -113,8 +105,8 @@ class VoteInController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
-    {
+    public function destroy($id) {
         //
     }
+
 }
